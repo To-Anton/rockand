@@ -119,17 +119,8 @@ async def menu(message: types.Message):
     elif message.text == 'Слава Україні!' or message.text == 'Слава Україні' or message.text == 'слава Україні' or \
             message.text == 'слава Україні':
         await bot.send_message(message.from_user.id, 'Героям Слава! 🇺🇦')
-    elif message.text == 'Слава Нації!' or message.text == 'Слава Нації' or message.text == 'слава Нації' or \
-            message.text == 'слава нації' or message.text == 'слава нації!' or message.text == 'Слава нації!':
-        await bot.send_message(message.from_user.id, 'Смерть Ворогам! ')
-    elif message.text == 'Москалів!' or message.text == 'Москалів' or message.text == 'москалів' or \
-            message.text == 'Сепар' or message.text == 'Сепарів':
-        await bot.send_message(message.from_user.id, 'На ножі! 🔪')
     elif message.text == 'Украина' or message.text == 'Україна':
         await bot.send_message(message.from_user.id, 'Понад усе!')
-    elif message.text == 'Путін' or message.text == 'ПУТІН' or message.text == 'рубль' or \
-            message.text == 'Рубль' or message.text == 'путін':
-        await bot.send_message(message.from_user.id, 'Хуйло 🐓')
     elif message.text == 'Лох' or message.text == 'лох':
         await bot.send_message(message.from_user.id, 'В твоєму віддзеркаленні!')
     else:
